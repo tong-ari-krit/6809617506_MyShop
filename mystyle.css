@@ -39,6 +39,7 @@ header {
   z-index: 999;
 }
 .logo {
+  margin-left: 15px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -145,4 +146,24 @@ header {
   .cards {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+.nav-links {
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links .btn {
+  padding: 8px 15px;
+  background: #222222;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links .btn:hover {
+  background: black;
 }
